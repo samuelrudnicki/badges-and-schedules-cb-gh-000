@@ -17,6 +17,7 @@ def assign_rooms(speakers)
   new_arr
 end
 
-def printer
-  puts(batch_badge_creator())
+def printer(list)
+  puts(batch_badge_creator(list))
+  puts(assign_rooms(list))
 end
